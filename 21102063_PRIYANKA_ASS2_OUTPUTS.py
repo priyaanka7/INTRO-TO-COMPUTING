@@ -64,6 +64,6 @@ Yes
 
 
 Question 6
-Enter the number =56
-Enter the number =72
-0
+Enter the number =3
+Enter the number =7
+1
