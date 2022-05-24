@@ -28,7 +28,7 @@ Pythonisacasesensitivelanguage
 Question 2
 Hey, Priyanka here!
 My SID is 21102063
-I am from Civil department and my CGPA is 10.0
+I am from Civil department and my CGPA is 9.9
 
 
 Question 3
