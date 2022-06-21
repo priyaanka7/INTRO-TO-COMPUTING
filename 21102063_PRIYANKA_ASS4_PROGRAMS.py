@@ -19,11 +19,18 @@ print("\n")
 
 #Program for Question 2
 print("Question2")
-a=int(input("Enter a Year:"))
-if (a%4==0 and a%100!=0) or a%400==0:
-    print("It is a leap year")
+year = int(input("Enter the year = "))
+
+if year%4 == 0:
+    if year%100 == 0:
+        if year%400 == 0:
+            print(year,"is a Leap year")
+        else:
+            print(year,"is not a Leap year")
+    else:
+        print(year,"is not a Leap year")
 else:
-    print("It is not a leap year")
+    print(year,"is a Leap year")
 print("\n")
 
 
