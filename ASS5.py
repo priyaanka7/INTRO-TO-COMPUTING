@@ -66,15 +66,16 @@ print("\n")
 
 #Program for Question 6
 print("Question6")
-lower_value = int(input ( "Enter the lowest Range value : " ))
-upper_value = int(input ( "Enter the upper Range Value : "))
-for number in range (lower_value, upper_value + 1 ):
-  if number > 1 :
-    for i in range (2, number):
-      if (number % i)== 0:
-        break
-else:
-  print (number)
+lower_limit = int(input("Enter the lower limit of the range:"))
+upper_limit = int(input("Enter the upper limit of the range:"))
+
+for i in range(lower_limit,upper_limit+1):
+    if i>1:
+        for j in range(2,i):
+            if (i%j)==0:
+                break
+        else:
+            print(i)
 print("\n")
 
 
@@ -94,7 +95,7 @@ print("\n")
 print("Question8")
 lst = []
 for i in range(0, 10):
-   ele = int(input(" Enter the numbers: "))
+   ele = int(input("Enter the numbers: "))
    lst.append(ele)
 pn = []
 nn = []
@@ -105,9 +106,9 @@ for i in range(0, 10):
      pn.append(i)
   if(i<0):
      nn.append(i)
-  if(i%2==0):
-     on.append(i)
   if(i%2!=0):
+     on.append(i)
+  if(i%2==0):
      en.append(i)
 print("Q8(a) Positive numbers: ")
 print(pn)
@@ -133,14 +134,16 @@ print("\n")
 
 #Program for Question 9
 print("Question9")
-user_list = input("Enter the list of words: ")
-word_list = user_list.split(",")
-counts = dict()
-for word in word_list:
+def word_count(str):
+  counts = dict()
+  words = str.split()
+  for word in words:
     if word in counts:
-        counts[word] += 1
+      counts[word] += 1
     else:
-        counts[word] = 1
-print(counts)
+      counts[word] = 1
+  return counts
+n=input("Enter text:")
+print(word_count(n))
 
 
