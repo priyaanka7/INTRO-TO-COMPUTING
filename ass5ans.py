@@ -8,28 +8,12 @@ aknayirP
 
 
 Question2
-Enter the number: 4
+Enter the number: 6
 Enter the lower limit: 2
-Enter the upper limit: 80
-4
-8
+Enter the upper limit: 20
+6
 12
-16
-20
-24
-28
-32
-36
-40
-44
-48
-52
-56
-60
-64
-68
-72
-76
+18
 
 
 Question3
@@ -53,20 +37,26 @@ Question4
 
 
 Question5
-Enter the number of rows: 6
+Enter the number of rows: 5
 Triangluar Pattern of alphabets: 
 A 
 B C 
 D E F 
 G H I J 
 K L M N O 
-P Q R S T U 
 
 
 Question6
-Enter the lowest Range value : 2
-Enter the upper Range Value : 10
-10
+Enter the lower limit of the range:2
+Enter the upper limit of the range:20
+2
+3
+5
+7
+11
+13
+17
+19
 
 
 Question7
@@ -74,28 +64,28 @@ Question7
 
 
 Question8
- Enter the numbers: 2
- Enter the numbers: 5
- Enter the numbers: 9
- Enter the numbers: 7
- Enter the numbers: 4
- Enter the numbers: 6
- Enter the numbers: 6
- Enter the numbers: 2
- Enter the numbers: 8
- Enter the numbers: 2
+Enter the numbers: 2
+Enter the numbers: 6
+Enter the numbers: 9
+Enter the numbers: -1
+Enter the numbers: 8
+Enter the numbers: -1
+Enter the numbers: 5
+Enter the numbers: 7
+Enter the numbers: 1
+Enter the numbers: 9
 Q8(a) Positive numbers: 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 Q8(b) Negative numbers: 
 []
 Q8(c) Odd numbers: 
-[0, 2, 4, 6, 8]
-Q8(d) Even numbers: 
 [1, 3, 5, 7, 9]
+Q8(d) Even numbers: 
+[0, 2, 4, 6, 8]
 Q8(e) Number of times each number occurs in the List: 
-{2: 3, 5: 1, 9: 1, 7: 1, 4: 1, 6: 2, 8: 1}
+{2: 1, 6: 1, 9: 2, -1: 2, 8: 1, 5: 1, 7: 1, 1: 1}
 
 
 Question9
-Enter the list of words: My name is is Priyanka
-{'My name is is Priyanka': 1}
+Enter text:Priyanka is is my my my name
+{'Priyanka': 1, 'is': 2, 'my': 3, 'name': 1}
